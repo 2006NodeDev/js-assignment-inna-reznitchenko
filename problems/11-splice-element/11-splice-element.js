@@ -20,7 +20,7 @@ function spliceElement(someArr, index) {
 
 
 //testing my splice fuction with different values 
-var testArray = [1, 5, 23, 10, 2, 5, 30, 8];
+let testArray = [1, 5, 23, 10, 2, 5, 30, 8];
 
 console.log(spliceElement(testArray,4))
 console.log(spliceElement(testArray, 0))

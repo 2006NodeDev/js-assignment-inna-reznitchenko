@@ -11,8 +11,8 @@ function substring(someStr, startIndex, endIndex) {
         throw "Incorrect input. Please pass in inbounds index parameters."
     }
     else{
-        var strArray = someStr.split("")
-        var subStr = ""
+        let strArray = someStr.split("")
+        let subStr = ""
         for(i = startIndex; i < endIndex; i++){
             subStr += strArray[i];
         }
@@ -22,7 +22,7 @@ function substring(someStr, startIndex, endIndex) {
 
 //trying to pass in a strign starting from the beginning
 try {
-    var str = substring("Pennsylvanis", 0, 7);
+    let str = substring("Pennsylvanis", 0, 7);
     console.log(str)
   } catch (e) {
     console.error(e);
@@ -30,7 +30,7 @@ try {
 
   //trying to pass a non string variable 
   try {
-    var str = substring(false, 5, 2);
+    let str = substring(false, 5, 2);
     console.log(str)
   } catch (e) {
     console.error(e);
@@ -38,7 +38,7 @@ try {
 
   //trying to pass in a string with invalid indexes
   try {
-    var str = substring("dog", 1, 4);
+    let str = substring("dog", 1, 4);
     console.log(str)
   } catch (e) {
     console.error(e);
@@ -46,7 +46,7 @@ try {
 
   //trying to pass in a string with negavtive indexes
   try {
-    var str = substring("dog", -1, 2);
+    let str = substring("dog", -1, 2);
     console.log(str)
   } catch (e) {
     console.error(e);
@@ -54,7 +54,7 @@ try {
 
 //trying to pass in a strign starting from the middle
 try {
-    var str = substring("Pennsylvania", 4, 9);
+    let str = substring("Pennsylvania", 4, 9);
     console.log(str)
   } catch (e) {
     console.error(e);

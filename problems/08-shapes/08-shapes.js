@@ -36,7 +36,7 @@ function printShape(shape, height, character) {
       break;
 
     case "Diamond":
-      var space = " ";
+      let space = " ";
       midpt = Math.floor(height/2);
       spaceCount = 0;
       for(i=0; i < height; i++){

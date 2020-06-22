@@ -17,5 +17,5 @@ function bubbleSort(numArray) {
 }
 
 //buble sorting a large mismatched array to test
-var arr = [1, 5, 3, 5, 2, 35, 1, 16, 9, 2];
+let arr = [1, 5, 3, 5, 2, 35, 1, 16, 9, 2];
 console.log(bubbleSort(arr))

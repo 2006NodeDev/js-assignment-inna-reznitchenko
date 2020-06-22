@@ -2,7 +2,7 @@
 Define function isPalindrome(someStr)
 Return true if someStr is a palindrome, otherwise return false */
 function isPalindrome(someStr) {
-    var strArray = someStr.split("");
+    let strArray = someStr.split("");
 
     for(i = 0; i < (strArray.length / 2); i++){
         if(strArray[i] == strArray[strArray.length - 1 - i]){

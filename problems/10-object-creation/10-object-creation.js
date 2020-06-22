@@ -3,7 +3,7 @@ Create an object using an object literal, constructor function, and es6 class.
 The object should have the fields name and age.*/
 
 //create an object using object literal
-var objLiteral = {name: "Inna", color: "pink", food: "pizza", animal: "cat", age: 23};
+let objLiteral = {name: "Inna", color: "pink", food: "pizza", animal: "cat", age: 23};
 
 //create an object using a constructor function
 function objConstructor(name, color, food, animal, age){
@@ -14,7 +14,7 @@ function objConstructor(name, color, food, animal, age){
     this.age = age;
 }
 
-var objectC = new objConstructor("Max", "blue", "sushi", "fish", 20);
+let objectC = new objConstructor("Max", "blue", "sushi", "fish", 20);
 
 
 //create an object using an es6 class
@@ -43,7 +43,7 @@ class objES6{
     }
 
 }
-var meal = new objES6("Steak", "Pepsi", "Cake", 15);
+let meal = new objES6("Steak", "Pepsi", "Cake", 15);
 
 //testing to make sure the objects are being created properly
 console.log(objLiteral);

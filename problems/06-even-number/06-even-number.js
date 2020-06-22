@@ -3,7 +3,7 @@ Define function: isEven(someNum)
 Return true if even, false if odd.
 Do not use % operator. */
 function isEven(someNum) {
-    var quotient = Math.floor(someNum/2);
+    let quotient = Math.floor(someNum/2);
 
     if(quotient*2 == someNum){
         return true;

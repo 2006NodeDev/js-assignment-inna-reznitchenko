@@ -10,8 +10,8 @@ function objectProperties(someObj) {
 }
 
 //testing with different objects
-var person = {firstName:"Inna", lastName:"Reznitchenko", age:23, eyeColor:"blue"};
-var cat = {name:"sushi", color:"orange", age:3};
+let person = {firstName:"Inna", lastName:"Reznitchenko", age:23, eyeColor:"blue"};
+let cat = {name:"sushi", color:"orange", age:3};
 
 objectProperties(person)
 objectProperties(cat)
